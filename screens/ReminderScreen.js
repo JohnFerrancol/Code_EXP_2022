@@ -1,13 +1,10 @@
 import React from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 
-export default function CalendarScreen({ navigation }) {
+export default function ReminderScreen() {
     return (
         <View style={styles.container}>
-            <Text>Calendar Screen</Text>
-            <TouchableOpacity onPress={() => navigation.navigate('Calendar', { screen: "Add Reminder" })}>
-                <Text>Add Reminder</Text>
-            </TouchableOpacity>
+            <Text>Reminder Screen</Text>
         </View>
     )
 }
